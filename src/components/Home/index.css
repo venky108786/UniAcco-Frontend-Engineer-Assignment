@@ -1,0 +1,46 @@
+.main-home {
+  padding-bottom: 50px;
+}
+.new-this-week-heading {
+  margin-left: 57px;
+}
+@media screen and (max-width: 767px) {
+  .new-this-week-heading {
+    font-size: 30px;
+  }
+}
+.new-this-week-list-container {
+  display: flex;
+  flex-direction: row;
+  overflow-y: auto;
+}
+@media screen and (max-width: 767px) {
+  .new-this-week-list-container {
+    margin-right: 20px;
+  }
+}
+.filters-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.left-filters-side {
+  display: flex;
+  flex-direction: row;
+}
+.verticle-line {
+  border-left: 2px solid #bfbfbf;
+  height: 60px;
+  margin-left: 10px;
+}
+.right-side-filter {
+  overflow-y: auto;
+}
+.plan-a-trip-heading {
+  margin-left: 57px;
+  font-size: 27px;
+  margin-top: 10px;
+}
+.plan-a-trips-container {
+  overflow-y: auto;
+}

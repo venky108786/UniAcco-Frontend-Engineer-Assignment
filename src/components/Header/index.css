@@ -1,0 +1,102 @@
+.nav-bar-header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgb(240, 235, 235);
+}
+@media screen and (max-width: 767px) {
+  /* .nav-bar-header{
+      flex-direction: column;
+      align-items: center;
+      border-bottom-style: none;
+    } */
+  .nav-bar-header {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(240, 235, 235);
+  }
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1110px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+@media screen and (max-width: 767px) {
+  .nav-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.header-options-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* /* align-items: center;
+    justify-content: space-between; */
+  /* width: 100%;
+    max-width: 1110px; */
+}
+
+/* @media screen and (max-width: 767px) {
+    .header-options-container{
+      display: none;
+    }
+  } */
+
+.airbnb-logo {
+  height: 50px;
+  width: 150px;
+}
+.logo-button {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+}
+.nav-bar-button {
+  background-color: transparent;
+  border: 0px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  padding: 10px;
+}
+.nav-bar-button:hover {
+  background-color: #f7f7f7;
+  border: 0px;
+  border-radius: 12px;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+.becom-a-host {
+  margin-top: 5px;
+  font-size: 18px;
+}
+.icons {
+  font-size: 25px;
+  color: black;
+  margin-left: 10px;
+}
+.globe-icon-button:hover {
+  border-radius: 50%;
+  padding-right: 10px;
+}
+.signIn-container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  border: 1px solid #bfbfbf;
+  border-radius: 15px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.signIn-container:hover {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
